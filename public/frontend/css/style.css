@@ -1,0 +1,103 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto", sans-serif;
+}
+a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.dark_section{
+    background: #000000 !important;
+}
+.left_text h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+}
+.left_text p{
+    color: #fff;
+}
+.logo {
+    font-size: 30px;
+}
+ul.main_nav li a {
+    font-size: 17px !important;
+    font-weight: 600;
+    color: #000;
+}
+ul.main_nav li a.active{
+    color: #333 !important;
+}
+.main_form label{
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+
+}
+.card.main_form {
+    background: #f8f9fa;
+}
+.ride_tab li button {
+    font-weight: bold;
+    color: #009688;
+}
+
+.ride_map iframe {
+    border: 10px solid #212529 !important;
+    padding: 60px 1px;
+    border-radius: 10px;
+    background: black;
+    position: relative;
+}
+.ride_map{
+    position: relative;
+}
+.ride_map:after {
+    content: "";
+    position: absolute;
+    left: 46%;
+    bottom: 23px;
+    height: 40px;
+    width: 40px;
+    background: #efeaea;
+    border-radius: 100%;
+    border: 3px solid #9c9c9c;
+}
+.section_padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.drive_image img, .uber_img img {
+    width: 100%;
+}
+.img_area img {
+    width: 100px;
+}
+/*responsive css*/
+@media screen and (max-width:375px) and (max-width: 667px) {
+    .top_section {
+        display: block !important;
+    }
+    .user_photo {
+        display: block !important;
+    }
+    .user_photo_info {
+        display: block !important;
+    }
+}
+@media screen and (max-width:320px) and (max-width: 568px) {
+    .top_section {
+        display: block !important;
+    }
+    .user_photo {
+        display: block !important;
+    }
+    .user_photo_info {
+        display: block !important;
+    }
+}
